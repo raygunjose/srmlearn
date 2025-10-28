@@ -24,6 +24,14 @@ if (storedProducts.length === 0) {
       price: 1499,
       favourite: false
     },
+    {
+      id: 3,
+      imageurl: "https://media.istockphoto.com/id/924702024/photo/ground-coffee-in-spoon-coffee-beans.jpg?s=612x612&w=0&k=20&c=dvNz-rl2D8B1DFGDFAHqmWKAOtyMJi9oy2IbOEMIkH0=",
+      title: "Coffee",
+      description: "Creator: kot63 Credit: Getty Images/iStockphoto.",
+      price: 699,
+      favourite: false
+    },
   ];
   localStorage.setItem('products', JSON.stringify(storedProducts));
 }
